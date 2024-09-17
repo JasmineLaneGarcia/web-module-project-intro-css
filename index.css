@@ -1,0 +1,168 @@
+<link href=
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+header img {
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+
+*{
+    font-family: 'Roboto Mono';
+}
+
+
+.Plan {
+    background-color: #FF764E;
+    color: white;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 5px;
+    border-radius: 9px;
+    font-size: .7rem;
+    height: 1.5rem;
+    max-width: 11%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Learn {
+    background-color: #5ED3EB;
+    color: white; 
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 5px;
+    border-radius: 9px;
+    font-size: .7rem;
+    height: 1.5rem;
+    max-width: 11%;
+    text-align: center;
+    text-decoration: none;
+}
+.Get {
+    background-color: #FFCD69;
+    color: white;
+    display: inline-block;
+    margin-left: 10%;
+
+    padding: 5px;
+    border-radius: 9px;
+    font-size: .7rem;
+    height: 1.5rem;
+    max-width: 11%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: 'Chelsea Market';
+}
+
+.top {
+    text-align: center;
+    margin-top: -24%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.top p{
+    font-size: .7rem;
+    max-width: 60%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.middle {
+    color: white;
+    background-color: #DDB9A3;
+    text-align: center;
+    font-size: .8rem;
+    padding-top: .2%;
+    padding-bottom: .2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 90%;
+    margin: auto;
+}
+
+.bottom {
+    text-align: center;
+    font-size: .6rem;
+    margin-bottom: 4%;
+}
+
+.bottom p {
+    max-width: 21%;
+    margin: auto;
+}
+
+.bottom span{
+    font-weight: bold;
+}
+
+.bottom img {
+    width: 11%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#mountain {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 20% 20%;
+
+}
+
+footer{
+    background-color: #F9E7DC;
+}
